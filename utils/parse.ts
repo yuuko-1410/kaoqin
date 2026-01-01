@@ -14,6 +14,7 @@ interface AttendanceDay {
   overtimeStart?: string;
   overtimeEnd?: string;
   overtimeMinutes?: number;
+  isFullDayWeekendOvertime?: boolean; // 标识是否为全天周末加班
 }
 
 interface Employee {
@@ -50,6 +51,24 @@ function parseAttendanceStatus(notes: string): AttendanceDay {
       result.status = "weekendOvertime";
       result.overtimeStart = match[1];
       result.overtimeEnd = match[2];
+
+      // 判断是否为全天加班（工作时长 >= 7小时）
+      const startTime = match[1];
+      const endTime = match[2];
+      const hours = parseInt(startTime.split(":")[0] ?? "0", 10);
+      const minutes = parseInt(startTime.split(":")[1] ?? "0", 10);
+      const startMinutes = hours * 60 + minutes;
+
+      const endHours = parseInt(endTime.split(":")[0] ?? "0", 10);
+      const endMins = parseInt(endTime.split(":")[1] ?? "0", 10);
+      const endTotalMinutes = endHours * 60 + endMins;
+
+      const workMinutes = endTotalMinutes - startMinutes;
+
+      // 如果工作时长 >= 7小时，标记为全天加班
+      if (workMinutes >= 7 * 60) {
+        result.isFullDayWeekendOvertime = true;
+      }
     } else {
       result.status = "unselected";
     }

@@ -92,6 +92,7 @@ interface AttendanceDetail {
   leaveEnd?: string;
   overtimeStart?: string;
   overtimeEnd?: string;
+  isFullDayWeekendOvertime?: boolean; // 标识是否为全天周末加班
 }
 
 interface AttendanceRecord {
@@ -156,6 +157,7 @@ function EditModal({
       overtimeEnd: currentDetail.overtimeEnd
         ? dayjs(currentDetail.overtimeEnd, "HH:mm")
         : null,
+      isFullDayWeekendOvertime: currentDetail.isFullDayWeekendOvertime || false,
     });
   }, [currentDetail, visible, form]);
 
@@ -188,6 +190,7 @@ function EditModal({
         detail.overtimeEnd = values.overtimeEnd
           ? dayjs(values.overtimeEnd).format("HH:mm")
           : undefined;
+        detail.isFullDayWeekendOvertime = values.isFullDayWeekendOvertime || false;
       }
 
       onSave(detail);
@@ -375,6 +378,18 @@ function EditModal({
             getFieldValue("status") === "weekendOvertime" ? (
               <>
                 <Form.Item
+                  label="是否全天加班（≥7小时）"
+                  name="isFullDayWeekendOvertime"
+                  valuePropName="checked"
+                >
+                  <Select
+                    options={[
+                      { label: "否（按实际小时计算）", value: false },
+                      { label: "是（按7小时+超出18:00部分计算）", value: true },
+                    ]}
+                  />
+                </Form.Item>
+                <Form.Item
                   label="加班开始时间"
                   name="overtimeStart"
                   rules={[{ required: true, message: "请选择开始时间" }]}
@@ -450,8 +465,25 @@ function SalaryModal({
           detail.overtimeStart &&
           detail.overtimeEnd
         ) {
-          overtimeHours +=
-            calculateMinutes(detail.overtimeStart, detail.overtimeEnd) / 60;
+          // 周末加班计算
+          if (detail.isFullDayWeekendOvertime) {
+            // 全天周末加班：基础7小时 + 超出18:00的部分
+            const [endHour, endMin] = detail.overtimeEnd.split(":").map(Number);
+            const endTotalMinutes = (endHour ?? 0) * 60 + (endMin ?? 0);
+            const endOfDay = 18 * 60; // 18:00
+
+            if (endTotalMinutes > endOfDay) {
+              // 超过18:00，计算超出部分
+              overtimeHours += (7 * 60 + (endTotalMinutes - endOfDay)) / 60;
+            } else {
+              // 未超过18:00，按7小时计算
+              overtimeHours += 7;
+            }
+          } else {
+            // 半天周末加班：按实际时间计算（不考虑午休）
+            overtimeHours +=
+              calculateMinutes(detail.overtimeStart, detail.overtimeEnd) / 60;
+          }
         }
 
         // 请假小时统计
@@ -465,6 +497,9 @@ function SalaryModal({
         } else if (detail.status === "earlyLeave" && detail.earlyLeaveTime) {
           leaveHours +=
             calculateWorkHours(detail.earlyLeaveTime, WORK_END_AFTERNOON) / 60;
+        } else if (detail.status === "late" && detail.lateMinutes) {
+          // 迟到按分钟数扣除
+          leaveHours += detail.lateMinutes / 60;
         }
       }
     }
@@ -912,6 +947,9 @@ export default function AttendancePage() {
             detail.earlyLeaveTime,
             WORK_END_AFTERNOON
           );
+        } else if (detail.status === "late" && detail.lateMinutes) {
+          // 计算迟到分钟数
+          totalMinutes += detail.lateMinutes;
         }
       }
     }
@@ -937,11 +975,27 @@ export default function AttendancePage() {
           detail.overtimeStart &&
           detail.overtimeEnd
         ) {
-          // 周末加班 - 计算总时间
-          totalMinutes += calculateMinutes(
-            detail.overtimeStart,
-            detail.overtimeEnd
-          );
+          // 周末加班计算
+          if (detail.isFullDayWeekendOvertime) {
+            // 全天周末加班：基础7小时 + 超出18:00的部分
+            const [endHour, endMin] = detail.overtimeEnd.split(":").map(Number);
+            const endTotalMinutes = (endHour ?? 0) * 60 + (endMin ?? 0);
+            const endOfDay = 18 * 60; // 18:00
+
+            if (endTotalMinutes > endOfDay) {
+              // 超过18:00，计算超出部分
+              totalMinutes += 7 * 60 + (endTotalMinutes - endOfDay);
+            } else {
+              // 未超过18:00，按7小时计算
+              totalMinutes += 7 * 60;
+            }
+          } else {
+            // 半天周末加班：按实际时间计算（不考虑午休）
+            totalMinutes += calculateMinutes(
+              detail.overtimeStart,
+              detail.overtimeEnd
+            );
+          }
         }
       }
     }
