@@ -190,7 +190,8 @@ function EditModal({
         detail.overtimeEnd = values.overtimeEnd
           ? dayjs(values.overtimeEnd).format("HH:mm")
           : undefined;
-        detail.isFullDayWeekendOvertime = values.isFullDayWeekendOvertime || false;
+        detail.isFullDayWeekendOvertime =
+          values.isFullDayWeekendOvertime || false;
       }
 
       onSave(detail);
