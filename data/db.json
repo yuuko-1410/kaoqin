@@ -1,0 +1,1639 @@
+{
+  "records": [
+    {
+      "id": "attendance_202601_1767596148563",
+      "monthDisplay": "2025年12月",
+      "year": 2025,
+      "monthValue": 12,
+      "dataSource": [
+        {
+          "key": "1",
+          "userId": "1",
+          "name": "高杰",
+          "day_1": {
+            "status": "unselected"
+          },
+          "day_2": {
+            "status": "unselected"
+          },
+          "day_3": {
+            "status": "unselected"
+          },
+          "day_4": {
+            "status": "late",
+            "lateMinutes": 60
+          },
+          "day_5": {
+            "status": "fullDayLeave"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "unselected"
+          },
+          "day_9": {
+            "status": "unselected"
+          },
+          "day_10": {
+            "status": "unselected"
+          },
+          "day_11": {
+            "status": "unselected"
+          },
+          "day_12": {
+            "status": "unselected"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "unselected"
+          },
+          "day_16": {
+            "status": "unselected"
+          },
+          "day_17": {
+            "status": "unselected"
+          },
+          "day_18": {
+            "status": "unselected"
+          },
+          "day_19": {
+            "status": "unselected"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "unselected"
+          },
+          "day_23": {
+            "status": "unselected"
+          },
+          "day_24": {
+            "status": "unselected"
+          },
+          "day_25": {
+            "status": "unselected"
+          },
+          "day_26": {
+            "status": "unselected"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "unselected"
+          },
+          "day_30": {
+            "status": "unselected"
+          },
+          "day_31": {
+            "status": "unselected"
+          }
+        },
+        {
+          "key": "2",
+          "userId": "2",
+          "name": "石彬",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "normal"
+          },
+          "day_3": {
+            "status": "late",
+            "lateMinutes": 19
+          },
+          "day_4": {
+            "status": "late",
+            "lateMinutes": 16
+          },
+          "day_5": {
+            "status": "normal"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "normal"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "late",
+            "lateMinutes": 23
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "normal"
+          },
+          "day_26": {
+            "status": "normal"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "normal"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "late",
+            "lateMinutes": 16
+          }
+        },
+        {
+          "key": "3",
+          "userId": "3",
+          "name": "高梓航",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "unselected"
+          },
+          "day_3": {
+            "status": "normal"
+          },
+          "day_4": {
+            "status": "unselected"
+          },
+          "day_5": {
+            "status": "normal"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "normal"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "normal"
+          },
+          "day_26": {
+            "status": "normal"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "normal"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "4",
+          "userId": "4",
+          "name": "贾文晴",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "normal"
+          },
+          "day_3": {
+            "status": "normal"
+          },
+          "day_4": {
+            "status": "normal"
+          },
+          "day_5": {
+            "status": "normal"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "normal"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "normal"
+          },
+          "day_26": {
+            "status": "normal"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "normal"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "5",
+          "userId": "5",
+          "name": "周冯权",
+          "day_1": {
+            "status": "overtime",
+            "overtimeMinutes": 61
+          },
+          "day_2": {
+            "status": "overtime",
+            "overtimeMinutes": 124
+          },
+          "day_3": {
+            "status": "normal"
+          },
+          "day_4": {
+            "status": "normal"
+          },
+          "day_5": {
+            "status": "overtime",
+            "overtimeMinutes": 170
+          },
+          "day_6": {
+            "status": "weekendOvertime",
+            "overtimeStart": "08:59",
+            "overtimeEnd": "19:30",
+            "isFullDayWeekendOvertime": true
+          },
+          "day_7": {
+            "status": "weekendOvertime",
+            "overtimeStart": "15:58",
+            "overtimeEnd": "18:12"
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "normal"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "weekendOvertime",
+            "overtimeStart": "08:58",
+            "overtimeEnd": "18:31",
+            "isFullDayWeekendOvertime": true
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "fullDayLeave"
+          },
+          "day_25": {
+            "status": "overtime",
+            "overtimeMinutes": 186
+          },
+          "day_26": {
+            "status": "overtime",
+            "overtimeMinutes": 120
+          },
+          "day_27": {
+            "status": "weekendOvertime",
+            "overtimeStart": "08:56",
+            "overtimeEnd": "17:22",
+            "isFullDayWeekendOvertime": true
+          },
+          "day_28": {
+            "status": "weekendOvertime",
+            "overtimeStart": "08:58",
+            "overtimeEnd": "18:00",
+            "isFullDayWeekendOvertime": true
+          },
+          "day_29": {
+            "status": "overtime",
+            "overtimeMinutes": 102
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "6",
+          "userId": "6",
+          "name": "Terry",
+          "day_1": {
+            "status": "unselected"
+          },
+          "day_2": {
+            "status": "unselected"
+          },
+          "day_3": {
+            "status": "unselected"
+          },
+          "day_4": {
+            "status": "unselected"
+          },
+          "day_5": {
+            "status": "unselected"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "unselected"
+          },
+          "day_9": {
+            "status": "unselected"
+          },
+          "day_10": {
+            "status": "unselected"
+          },
+          "day_11": {
+            "status": "unselected"
+          },
+          "day_12": {
+            "status": "unselected"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "unselected"
+          },
+          "day_16": {
+            "status": "unselected"
+          },
+          "day_17": {
+            "status": "unselected"
+          },
+          "day_18": {
+            "status": "unselected"
+          },
+          "day_19": {
+            "status": "unselected"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "unselected"
+          },
+          "day_23": {
+            "status": "unselected"
+          },
+          "day_24": {
+            "status": "unselected"
+          },
+          "day_25": {
+            "status": "unselected"
+          },
+          "day_26": {
+            "status": "unselected"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "unselected"
+          },
+          "day_30": {
+            "status": "unselected"
+          },
+          "day_31": {
+            "status": "unselected"
+          }
+        },
+        {
+          "key": "7",
+          "userId": "7",
+          "name": "张贺林",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "normal"
+          },
+          "day_3": {
+            "status": "fullDayLeave"
+          },
+          "day_4": {
+            "status": "normal"
+          },
+          "day_5": {
+            "status": "fullDayLeave"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "halfDayLeave",
+            "leaveStart": "13:30",
+            "leaveEnd": "18:00"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "fullDayLeave"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "fullDayLeave"
+          },
+          "day_16": {
+            "status": "fullDayLeave"
+          },
+          "day_17": {
+            "status": "late",
+            "lateMinutes": 17
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "fullDayLeave"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "fullDayLeave"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "unselected"
+          },
+          "day_25": {
+            "status": "fullDayLeave"
+          },
+          "day_26": {
+            "status": "fullDayLeave"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "fullDayLeave"
+          },
+          "day_30": {
+            "status": "fullDayLeave"
+          },
+          "day_31": {
+            "status": "fullDayLeave"
+          }
+        },
+        {
+          "key": "8",
+          "userId": "8",
+          "name": "赵迪",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "normal"
+          },
+          "day_3": {
+            "status": "normal"
+          },
+          "day_4": {
+            "status": "normal"
+          },
+          "day_5": {
+            "status": "normal"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "normal"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "normal"
+          },
+          "day_26": {
+            "status": "normal"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "normal"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "9",
+          "userId": "9",
+          "name": "阳洋",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "normal"
+          },
+          "day_3": {
+            "status": "normal"
+          },
+          "day_4": {
+            "status": "normal"
+          },
+          "day_5": {
+            "status": "normal"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "unselected"
+          },
+          "day_9": {
+            "status": "normal"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "unselected"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "overtime",
+            "overtimeMinutes": 188
+          },
+          "day_26": {
+            "status": "overtime",
+            "overtimeMinutes": 122
+          },
+          "day_27": {
+            "status": "weekendOvertime",
+            "overtimeStart": "09:03",
+            "overtimeEnd": "17:23",
+            "isFullDayWeekendOvertime": true
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "overtime",
+            "overtimeMinutes": 105
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "10",
+          "userId": "10",
+          "name": "邓琳峰",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "normal"
+          },
+          "day_3": {
+            "status": "fullDayLeave"
+          },
+          "day_4": {
+            "status": "normal"
+          },
+          "day_5": {
+            "status": "fullDayLeave"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "weekendOvertime",
+            "overtimeStart": "08:55",
+            "overtimeEnd": "20:06",
+            "isFullDayWeekendOvertime": true
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "overtime",
+            "overtimeMinutes": 127
+          },
+          "day_10": {
+            "status": "overtime",
+            "overtimeMinutes": 46
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "overtime",
+            "overtimeMinutes": 226
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "halfDayLeave",
+            "leaveStart": "09:00",
+            "leaveEnd": "11:30"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "fullDayLeave"
+          },
+          "day_26": {
+            "status": "normal"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "normal"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "11",
+          "userId": "11",
+          "name": "宋晨欣",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "normal"
+          },
+          "day_3": {
+            "status": "normal"
+          },
+          "day_4": {
+            "status": "normal"
+          },
+          "day_5": {
+            "status": "normal"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "normal"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "normal"
+          },
+          "day_26": {
+            "status": "halfDayLeave",
+            "leaveStart": "13:30",
+            "leaveEnd": "18:00"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "halfDayLeave",
+            "leaveStart": "09:00",
+            "leaveEnd": "11:30"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "12",
+          "userId": "12",
+          "name": "郑仲涵",
+          "day_1": {
+            "status": "normal"
+          },
+          "day_2": {
+            "status": "normal"
+          },
+          "day_3": {
+            "status": "normal"
+          },
+          "day_4": {
+            "status": "normal"
+          },
+          "day_5": {
+            "status": "normal"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "normal"
+          },
+          "day_9": {
+            "status": "normal"
+          },
+          "day_10": {
+            "status": "normal"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "fullDayLeave"
+          },
+          "day_17": {
+            "status": "fullDayLeave"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "fullDayLeave"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "fullDayLeave"
+          },
+          "day_26": {
+            "status": "normal"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "halfDayLeave",
+            "leaveStart": "09:00",
+            "leaveEnd": "11:30"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "halfDayLeave",
+            "leaveStart": "09:00",
+            "leaveEnd": "11:30"
+          }
+        },
+        {
+          "key": "13",
+          "userId": "13",
+          "name": "唐霞",
+          "day_1": {
+            "status": "unselected"
+          },
+          "day_2": {
+            "status": "unselected"
+          },
+          "day_3": {
+            "status": "unselected"
+          },
+          "day_4": {
+            "status": "unselected"
+          },
+          "day_5": {
+            "status": "unselected"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "unselected"
+          },
+          "day_9": {
+            "status": "unselected"
+          },
+          "day_10": {
+            "status": "unselected"
+          },
+          "day_11": {
+            "status": "normal"
+          },
+          "day_12": {
+            "status": "normal"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "normal"
+          },
+          "day_16": {
+            "status": "normal"
+          },
+          "day_17": {
+            "status": "normal"
+          },
+          "day_18": {
+            "status": "normal"
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "normal"
+          },
+          "day_26": {
+            "status": "normal"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "normal"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "14",
+          "userId": "14",
+          "name": "杜玺林",
+          "day_1": {
+            "status": "unselected"
+          },
+          "day_2": {
+            "status": "unselected"
+          },
+          "day_3": {
+            "status": "unselected"
+          },
+          "day_4": {
+            "status": "unselected"
+          },
+          "day_5": {
+            "status": "unselected"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "unselected"
+          },
+          "day_9": {
+            "status": "unselected"
+          },
+          "day_10": {
+            "status": "unselected"
+          },
+          "day_11": {
+            "status": "unselected"
+          },
+          "day_12": {
+            "status": "unselected"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "unselected"
+          },
+          "day_16": {
+            "status": "unselected"
+          },
+          "day_17": {
+            "status": "unselected"
+          },
+          "day_18": {
+            "status": "late",
+            "lateMinutes": 36
+          },
+          "day_19": {
+            "status": "normal"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "normal"
+          },
+          "day_23": {
+            "status": "unselected"
+          },
+          "day_24": {
+            "status": "unselected"
+          },
+          "day_25": {
+            "status": "unselected"
+          },
+          "day_26": {
+            "status": "normal"
+          },
+          "day_27": {
+            "status": "weekendOvertime",
+            "overtimeStart": "09:11",
+            "overtimeEnd": "17:22",
+            "isFullDayWeekendOvertime": true
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "late",
+            "lateMinutes": 31
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "15",
+          "userId": "15",
+          "name": "欧阳静淼",
+          "day_1": {
+            "status": "unselected"
+          },
+          "day_2": {
+            "status": "unselected"
+          },
+          "day_3": {
+            "status": "unselected"
+          },
+          "day_4": {
+            "status": "unselected"
+          },
+          "day_5": {
+            "status": "unselected"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "unselected"
+          },
+          "day_9": {
+            "status": "unselected"
+          },
+          "day_10": {
+            "status": "unselected"
+          },
+          "day_11": {
+            "status": "unselected"
+          },
+          "day_12": {
+            "status": "unselected"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "unselected"
+          },
+          "day_16": {
+            "status": "unselected"
+          },
+          "day_17": {
+            "status": "unselected"
+          },
+          "day_18": {
+            "status": "unselected"
+          },
+          "day_19": {
+            "status": "unselected"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "unselected"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "normal"
+          },
+          "day_26": {
+            "status": "overtime",
+            "overtimeMinutes": 34
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "late",
+            "lateMinutes": 32
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "normal"
+          }
+        },
+        {
+          "key": "16",
+          "userId": "16",
+          "name": "石卿骏",
+          "day_1": {
+            "status": "unselected"
+          },
+          "day_2": {
+            "status": "unselected"
+          },
+          "day_3": {
+            "status": "unselected"
+          },
+          "day_4": {
+            "status": "unselected"
+          },
+          "day_5": {
+            "status": "unselected"
+          },
+          "day_6": {
+            "status": "unselected"
+          },
+          "day_7": {
+            "status": "unselected"
+          },
+          "day_8": {
+            "status": "unselected"
+          },
+          "day_9": {
+            "status": "unselected"
+          },
+          "day_10": {
+            "status": "unselected"
+          },
+          "day_11": {
+            "status": "unselected"
+          },
+          "day_12": {
+            "status": "unselected"
+          },
+          "day_13": {
+            "status": "unselected"
+          },
+          "day_14": {
+            "status": "unselected"
+          },
+          "day_15": {
+            "status": "unselected"
+          },
+          "day_16": {
+            "status": "unselected"
+          },
+          "day_17": {
+            "status": "unselected"
+          },
+          "day_18": {
+            "status": "unselected"
+          },
+          "day_19": {
+            "status": "unselected"
+          },
+          "day_20": {
+            "status": "unselected"
+          },
+          "day_21": {
+            "status": "unselected"
+          },
+          "day_22": {
+            "status": "unselected"
+          },
+          "day_23": {
+            "status": "normal"
+          },
+          "day_24": {
+            "status": "normal"
+          },
+          "day_25": {
+            "status": "normal"
+          },
+          "day_26": {
+            "status": "fullDayLeave"
+          },
+          "day_27": {
+            "status": "unselected"
+          },
+          "day_28": {
+            "status": "unselected"
+          },
+          "day_29": {
+            "status": "normal"
+          },
+          "day_30": {
+            "status": "normal"
+          },
+          "day_31": {
+            "status": "fullDayLeave"
+          }
+        }
+      ],
+      "importTime": "2026-01-05 14:55:48",
+      "employeeCount": 16
+    }
+  ]
+}
